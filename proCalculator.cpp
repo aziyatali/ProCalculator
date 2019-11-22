@@ -2,6 +2,7 @@
 #include <iostream>
 #include <iomanip>
 #include <cmath>
+#include <math.h>
 #include <string>
 using namespace std;
 
@@ -68,7 +69,7 @@ void sine ()
 	float ans;
 	cout<< "Insert the degree you want to get sine value: ";
 	cin>>degree;
-	ans = sine(degree);
+	ans = sin(degree);
 	cout<<"Sine of: "<<degree<<"degree is: "<<ans;
 }
 
@@ -78,7 +79,7 @@ void cosine()
 	float ans;
 	cout<< "Insert the degree you want to get sine value: ";
 	cin>>degree;
-	ans = cosine(degree);
+	ans = cos(degree);
 	cout<<"Cosine of: "<<degree<<"degree is: "<<ans;
 
 }
@@ -89,7 +90,7 @@ void tangent()
 	float ans;
 	cout<< "Insert the degree you want to get sine value: ";
 	cin>>degree;
-	ans = sine(degree)/cosine(degree);
+	ans = sin(degree)/cos(degree);
 	cout<<"Tangent of: "<<degree<<"degree is: "<<ans;
 
 }
@@ -100,7 +101,7 @@ void cotangent()
 	float ans;
 	cout<< "Insert the degree you want to get sine value: ";
 	cin>>degree;
-	ans = cosine(degree)/sine(degree);
+	ans = cos(degree)/sin(degree);
 	cout<<"Cotangent of: "<<degree<<"degree is: "<<ans;
 
 }
@@ -150,14 +151,14 @@ void logsTen()
 
 void squareRoot()
 {
-	float num, ans;
+	float number, ans;
 	cout<<"Insert a number you want get square root of: ";
 	cin>>number;
 	ans = sqrt(number);
 	cout<<"Square root of "<<number<<" is "<< ans;
 }
 
-void xthPower()
+void xthRoot()
 {
 	float number, root, ans;
 	cout<<"Insert a number you want to get xth root of: ";
