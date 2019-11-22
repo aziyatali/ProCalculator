@@ -7,11 +7,11 @@ public:
 	void firstChoice(int, int, int);
 	int simpleMenu(int);
 	int conversionMenu(int);
-	void simpleMenu(int);
-	void conversionMenu(int);
+	void simpleMath(int);
+	void conversionMath(int);
 
 	void add();
-	void subtract():
+	void subtract();
 	void multiple();
 	void divide();
 	void sine();
