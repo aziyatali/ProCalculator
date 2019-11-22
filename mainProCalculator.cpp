@@ -11,7 +11,7 @@ using namespace std;
 	void conversionMath(int decision);
 
 	void add();
-	void subtract():
+	void subtract();
 	void multiple();
 	void divide();
 	void sine();
