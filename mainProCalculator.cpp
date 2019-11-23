@@ -118,10 +118,9 @@ void simpleMath(int choice)
 		break;
 		case 15: factorial();
 		break;
-		case 16: firstChoice(int option, int choice, int decision);
-		break;
+		choice = simpleMenu(choice);
 		default:
-		while (choice<1 || choice >17)
+		while (choice<1 || choice 1617)
 		{
 			cout<<"Please, insert the valid choice or choice: 16 to go to the main menu: ";
 			cin>>choice;
